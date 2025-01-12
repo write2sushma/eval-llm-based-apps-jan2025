@@ -1,11 +1,10 @@
 
 # Evaluating LLM based applications
-### Presentation: [{ YOUR PRESENTATION NAME }](workshop/presentation_template.pdf)
 
 ## Workshop description
-It is so easy to build a PoC using LLMs and it is so hard to turn it into a production-grade LLM application. To succeed you should have a robust evaluation framework during development and post-deployment, not to mention its automation as manual reviews usually do not scale. 
+It is so easy to build a PoC using LLMs and it is so hard to turn it into a production-grade LLM application. To succeed you should have a robust evaluation framework during development and post-deployment, not to mention the framework automation as manual reviews usually do not scale. 
 
-This workshop focuses on the evaluation of LLM based applications powered by Python open-source libraries. We start with the exploration of different evaluation techniques. Further, we incorporate them into our test suite. At last, we lay the monitoring foundation.
+This workshop focuses on the evaluation of LLM based applications powered by Python open-source libraries. We start with the exploration of different evaluation techniques. Further, we incorporate them into our test suite. In the end, we lay the monitoring foundation.
 
 ## Requirements
 PyLadies Amsterdam uses [uv](https://astral.sh/blog/uv) for dependency management. For installation instructions, please check the [official documentation](https://astral.sh/blog/uv) or the [PyPI page](https://pypi.org/project/uv/).
@@ -30,7 +29,7 @@ To run this project on Google Colab, follow the following instructions:
 1. Visit [Google Colab](https://colab.research.google.com/)
 2. In the top left corner select "File" &#8594; "Open Notebook"
 3. Under "GitHub", enter the URL of the repo of this workshop
-4. Select one of the Notebooks within the repo.
+4. Select one of the notebooks within the repo.
 5. At the top of the notebook, run the following code:
 ```bash
 !cd ./name-of-repo
