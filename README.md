@@ -2,9 +2,9 @@
 # Evaluating LLM based applications
 
 ## Workshop description
-It is so easy to build a PoC using LLMs and it is so hard to turn it into a production-grade LLM application. To succeed you should have a robust evaluation framework during development and post-deployment, not to mention the framework automation as manual reviews usually do not scale. 
+It is so easy and quick to build a shiny PoC using LLMs and it is so hard to turn it into a production-grade LLM application. To succeed you need a robust evaluation framework, which you are going to use during the development and post-deployment of your LLM based app.
 
-This workshop focuses on the evaluation of LLM based applications powered by Python open-source libraries. We start with the exploration of different evaluation techniques. Further, we incorporate them into our test suite. In the end, we lay the monitoring foundation.
+This workshop focuses on understanding evaluation-driven development and architecture of a LLM based app, building an evaluation framework for it, establishing a test suite with evals and laying the monitoring foundations. All of it by leveraging Python OSS libraries
 
 ## Requirements
 PyLadies Amsterdam uses [uv](https://astral.sh/blog/uv) for dependency management. For installation instructions, please check the [official documentation](https://astral.sh/blog/uv) or the [PyPI page](https://pypi.org/project/uv/).
