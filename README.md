@@ -13,8 +13,8 @@ This workshop focuses on understanding evaluation-driven development and archite
 * basic understanding of ML monitoring
 
 ### Optional requirements
-* [uv](https://astral.sh/blog/uv) for dependency management, please check the [official documentation](https://astral.sh/blog/uv) for installation instructions
-* [poetry](https://python-poetry.org/) for dependency management, please check the [official documentation](https://python-poetry.org/docs/) for installation instructions
+* [uv](https://docs.astral.sh/uv/) for dependency management
+* [poetry](https://python-poetry.org/) for dependency management
 * Google account if you want to use [Google Colab](https://colab.research.google.com/)
 
 ## Usage
@@ -49,7 +49,7 @@ jupyter notebook
 4. Select one of the notebooks within the repo.
 5. At the top of the notebook, run the following code:
 ```bash
-!cd ./name-of-repo
+!cd ./eval-llm-based-apps-jan2025
 !pip install -r requirements.txt
 ```
 
