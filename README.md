@@ -18,6 +18,20 @@ This workshop focuses on understanding evaluation-driven development and archite
 
 ## Usage
 
+### on Windows PC
+Run the following code:
+```bash
+git clone https://github.com/pyladiesams/eval-llm-based-apps-jan2025.git
+cd eval-llm-based-apps-jan2025
+
+# create and activate venv, install dependencies
+python -m venv env
+env/Scripts/activate
+
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 ### with uv
 Run the following code:
 ```bash
@@ -38,6 +52,7 @@ uv sync
 %cd eval-llm-based-apps-jan2025
 !pip install -r requirements.txt
 ```
+
 ## Video record
 Re-watch [this YouTube stream](https://www.youtube.com/live/phpQ5hmC08E?feature=shared)
 
